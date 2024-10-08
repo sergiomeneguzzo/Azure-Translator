@@ -1,0 +1,48 @@
+.translator-container {
+  max-width: 600px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-weight: bold;
+}
+
+textarea,
+select {
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  padding: 0.75rem;
+  transition: all 0.3s ease;
+}
+
+textarea:focus,
+select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.25);
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result-card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 1rem;
+  margin-top: 20px;
+}
+
+.alert {
+  border-radius: 0.5rem;
+}

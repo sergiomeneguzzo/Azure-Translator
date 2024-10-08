@@ -1,0 +1,35 @@
+<div class="translator-container container mt-5">
+  <h2 class="text-center mb-4">Traduttore</h2>
+
+  <div class="form-group mb-5">
+    <textarea
+      [(ngModel)]="inputText"
+      class="form-control"
+      placeholder="Inserisci il testo da tradurre"
+      rows="4"
+    ></textarea>
+  </div>
+
+  <div class="form-group mb-3">
+    <select [(ngModel)]="targetLanguage" class="form-control">
+      <option value="en">Inglese</option>
+      <option value="es">Spagnolo</option>
+      <option value="fr">Francese</option>
+    </select>
+  </div>
+
+  <button (click)="translate()" class="btn btn-primary btn-block mb-3">Traduci</button>
+
+  @if (translationResult) {
+  <div class="mt-4 result-card p-4 border rounded">
+    <h3 class="text-center">Risultato della Traduzione</h3>
+    <p><strong>Traduzione:</strong> {{ translationResult.translation || 'Nessuna traduzione disponibile' }}</p>
+  </div>
+  }
+
+  @if (errorMessage) {
+  <div class="alert alert-danger mt-4">
+    <p>{{ errorMessage }}</p>
+  </div>
+  }
+</div>
