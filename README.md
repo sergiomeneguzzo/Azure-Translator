@@ -26,6 +26,7 @@ Make sure you have installed:
 
    ```bash
    npm install
+   ng serve --open
 
 ### Backend
 
