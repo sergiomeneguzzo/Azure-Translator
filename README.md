@@ -29,3 +29,6 @@ Assicurati di avere installato:
    npm install
    ng serve --open
 
+### Backend
+
+1. Avvia l'API ASP.NET Core.
