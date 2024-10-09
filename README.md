@@ -1,34 +1,32 @@
-# Traduttore Azure
+# Azure Translator
 
-## Descrizione
+## Description
 
-Questo è un piccolo progetto che combina un frontend sviluppato con Angular e un backend basato su ASP.NET Core. 
-L'applicazione utilizza i servizi di traduzione di Azure per fornire traduzioni in tempo reale.
+This is a small project that combines a frontend developed with Angular and a backend built with ASP.NET Core. The application uses Azure translation services to provide real-time translations.
 
-### Tecnologie utilizzate
+### Technologies Used
 
-- **Frontend**: Angular CLI (versione 18.2.7)
+- **Frontend**: Angular CLI (version 18.2.7)
 - **Backend**: ASP.NET Core (.NET 7.0)
 
-## Prerequisiti
+## Prerequisites
 
-Assicurati di avere installato:
+Make sure you have installed:
 
-- [Node.js](https://nodejs.org/) (incluso npm)
-- [.NET SDK](https://dotnet.microsoft.com/download) (versione 7.0 o superiore)
-- Un account Azure con le credenziali per i servizi di traduzione
+- [Node.js](https://nodejs.org/) (including npm)
+- [.NET SDK](https://dotnet.microsoft.com/download) (version 7.0 or higher)
+- An Azure account with credentials for translation services
 
-## Istruzioni per l'uso
+## Instructions
 
 ### Frontend
 
-1. Naviga nella cartella del frontend del progetto.
-2. Esegui il comando per installare le dipendenze:
+1. Navigate to the frontend folder of the project.
+2. Run the command to install dependencies:
 
    ```bash
    npm install
-   ng serve --open
 
 ### Backend
 
-1. Avvia l'API ASP.NET Core.
+1. Start the API ASP.NET Core.
